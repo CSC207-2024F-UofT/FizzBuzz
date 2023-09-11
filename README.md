@@ -204,7 +204,7 @@ a sequence of three git commands:
    - this actually records your changes to all "staged" files to your local git repository. You can again
    run `git status` to see what has happened.
    - And if you run `git log`, you will see a record of all commits made so far in the repository.
-   - The `-m "refactored to extract helper method"` is the message briefly documenting what changes were made.
+   - The `q` is the message briefly documenting what changes were made.
    You can put whatever message you want in the quotes, but try to keep it short and descriptive.
 3. `git push`
    - this last step is what actually sends your committed changes to your remote GitHub repository.
