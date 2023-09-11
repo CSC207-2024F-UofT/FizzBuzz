@@ -263,7 +263,7 @@ These will be explained in more detail in your readings, but for now we can just
 - [X] Choose this fix and the error will go away. Try running `Main.java` to see if it outputs
 what you expect.
 
-### Task 3.2: Calling `FizzBuzz.main` from `Main.main`
+### Task 3.2: Calling `FizzBuzz.main` from `Main.main` - not sure you did this correctly
 
 Suppose we wanted to execute a line like `FizzBuzz.main();` in `Main.main`. Why doesn't this work?
 
