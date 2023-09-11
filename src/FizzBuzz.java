@@ -13,7 +13,7 @@ class FizzBuzz {
             }
     }
 
-    private static int doFizzBuzz(int i) {
+    public static int doFizzBuzz(int i) {
         //things are already intialized
 
         // Find out which numbers divide i.
@@ -35,7 +35,7 @@ class FizzBuzz {
 
             System.out.println("Buzz");
 
-        } else {
+        } else { // edit changes
 
             System.out.println(i);
 
