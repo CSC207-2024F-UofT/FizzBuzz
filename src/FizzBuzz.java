@@ -35,7 +35,7 @@ class FizzBuzz {
 
             System.out.println("Buzz");
 
-        } else {
+        } else { // edit changes
 
             System.out.println(i);
 
