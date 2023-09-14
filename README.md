@@ -179,7 +179,7 @@ line or the closing brace `}` of the loop.
 
 3. Immediately, type the method name you want, maybe something like `doFizzBuzz`.
 
-- [X] Rerun the program to verify.kkk
+- [X] Rerun the program to verify.
 
 That's your first big IntelliJ trick! There are lots more.
 
