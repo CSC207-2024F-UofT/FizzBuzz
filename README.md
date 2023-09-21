@@ -197,7 +197,7 @@ Now that you've made your first edits to your code, you should ask git to save t
 We will save our local changes to `FizzBuzz.java` and then push the changes to your GitHub repository using
 a sequence of three git commands:
 
-1. `git add FizzBuzz.java`
+1. `git add src/FizzBuzz.java`
    - this tells git to "stage" our changes to FizzBuzz.java. If you run `git status` again, you will see
    that `FizzBuzz.java` has a new status.
 2. `git commit -m "refactored to extract helper method"`
@@ -208,6 +208,9 @@ a sequence of three git commands:
    You can put whatever message you want in the quotes, but try to keep it short and descriptive.
 3. `git push`
    - this last step is what actually sends your committed changes to your remote GitHub repository.
+   - IMPORTANT: You likely won't have your system configured for this command to actually work directly, so you
+   will most likely need to do the actual push using IntelliJ. See the first tip below, which mentions how to perform
+   the relevant git operations through IntelliJ's graphical user interface.
 
 - [ ] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
 
@@ -219,7 +222,11 @@ From that you can select `Commit...`, which will allow you to add and commit fil
 indicate which files to add and put the commit message in the textbox, then press the commit button).
 That menu also gives you the option to commit and push in one step if you wish to do so.
 If you chose to only commit, then you can later go back to the `Git` menu and choose `Push...` to open a
-menu to then push your commits to your remote GitHub repository.
+menu to then push your commits to your remote GitHub repository. When you try to push, you will be prompted
+to provide a GitHub access Token to authenticate if you haven't already added one. There will be a `Generate...`
+button in the popup. Clicking that will take you to a GitHub page which will generate the token for you. Once
+you generate the token, you copy it into the dialog box in IntelliJ and the push should go through. If you
+have trouble with this, please ask and someone around can help you through the steps.
 
 Tip: It is good practice to get in the habit of making commits that are small and have a distinct purpose.
 For example, one might imagine making a commit each time they complete a task they are working on or finish
