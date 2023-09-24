@@ -328,12 +328,12 @@ commit, push steps you learned in lab this week).
 
 ## Task 4: Multiples of 3 and 5
 
-- [ ] Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
+- [X] Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
 
 We're looking for non-negative multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
 four below 10. How many are below 1000?
 
-- [ ] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
+- [X] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
 Add this file to your project, commit, and push. Check your repo on GitHub to confirm your changes were pushed successfully.
 
 Tip: Just like with `psvm`, you can start typing `sout` and then press Enter to generate `System.out.println();` in IntelliJ.
@@ -344,21 +344,21 @@ working code on MarkUs.
 
 ## Task 5: Reduce a number to 0
 
-- [ ] Right-click on `src` and select `New —> Java Class`. Name it `Reduce`.
+- [X] Right-click on `src` and select `New —> Java Class`. Name it `Reduce`.
 
 Starting with a number n, if n is even divide it by 2. If n is odd, subtract 1. Repeat.
 
 For example, if you start with n = 2, the answer is 2.
 Details: 2 (even, divide by 2) --> 1 (odd, subtract 1) --> 0.
 
-- [ ] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
+- [X] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
 Add this file to your project, commit, and push. If you don't get the right answer, that's okay for now.
 This is to get you to practice. You'll have until the end of the week to work out the details and
 submit your working code on MarkUs.
 
 And that's it for the first lab activity of the term!
 
-- [ ] Check with those around you to see how many commits you each made during the lab. You can view the log of commits on GitHub or
+- [X] Check with those around you to see how many commits you each made during the lab. You can view the log of commits on GitHub or
       use the `git log` command to view a summary of the commits to the repository.
 
 ## Coding homework for this week
