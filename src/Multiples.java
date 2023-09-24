@@ -8,5 +8,7 @@ public class Multiples {
         }
         System.out.println(count);
         System.out.println("hhhh");
+        System.out.println("sss");
+        System.out.println("jjjj");
     }
 }
