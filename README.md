@@ -303,7 +303,7 @@ the file. Then click the commit button to commit the change to the repository.
 This change has now been made on GitHub,
 but your local copy doesn't know about the change yet.
 
-- [ ] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
+- [x] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
 or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see that commit show up in
 your local repository.
 
@@ -321,7 +321,7 @@ commit, push steps you learned in lab this week).
 
 ## Task 4: Multiples of 3 and 5
 
-- [ ] Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
+- [x] Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
 
 We're looking for non-negative multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
 four below 10. How many are below 1000?

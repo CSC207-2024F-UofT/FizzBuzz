@@ -31,7 +31,7 @@ class FizzBuzz {
 
         } else if (divisibleBy5) {
 
-            System.out.println("Buzz");
+            System.out.println("Buzz!");
 
         } else {
 
