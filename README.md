@@ -6,7 +6,7 @@ But first, let's get you your own copy of this codebase to work with.
 ## Task 0 Forking a public repository on GitHub
 
 You should be currently reading this README on GitHub in the code repository:
-https://github.com/CSC207-2023F-UofT/FizzBuzz/
+https://github.com/CSC207-2024F-UofT/FizzBuzz/
 
 1. Make sure you are logged into GitHub. You should see a button that says `Fork` in the top-right corner of the page.
 Click this button to create a fork of this repository, which will be your own copy of the codebase to edit as you please.
@@ -28,7 +28,7 @@ or you can choose the directory.
    since you can't have two projects with the exact same directory.
 6. Click the `Clone` button and IntelliJ will set up your project. At this point, it may require you to set up an
 access token to be able to clone the repository from GitHub if you didn't previously do so in the
-software setup instructions from Week 0 on Quercus.
+software setup instructions on Quercus.
 
 * Now that you have a copy of the code on your computer, you can proceed to work through the rest of the activity
 in IntelliJ. Open this `README.md` file in IntelliJ and in the top-right you can toggle between seeing the editor,
@@ -53,7 +53,9 @@ And now, back to Fizz Buzz!
 ## Fizz Buzz
 
 Fizz Buzz is a game where people sit in a circle. Counting from 1 and going around the circle,
-people say one of four things for a number `i`.
+people say one of four things for a number `i`: `Fizz`, `Buzz`, `Fizz Buzz`, or `i`.
+
+- [ ] Try a short game of Fizz Buzz with a small group of people around you!
 
 Formally as a coding task, let `i` be a positive integer and output the following:
 
@@ -179,7 +181,7 @@ line or the closing brace `}` of the loop.
 
 3. Immediately, type the method name you want, maybe something like `doFizzBuzz`.
 
-- [ ] Rerun the program to verify.
+- [ ] Rerun the program to verify that it still works.
 
 That's your first big IntelliJ trick! There are lots more.
 
@@ -209,7 +211,7 @@ a sequence of three git commands:
 3. `git push`
    - this last step is what actually sends your committed changes to your remote GitHub repository.
    - IMPORTANT: You likely won't have your system configured for this command to actually work directly, so you
-   will most likely need to do the actual push using IntelliJ. See the first tip below, which mentions how to perform
+   will need to do the actual push using IntelliJ. See the first tip below, which mentions how to perform
    the relevant git operations through IntelliJ's graphical user interface.
 
 - [ ] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
@@ -282,12 +284,12 @@ see the expected output of executing `FizzBuzz.main`. If you come up with differ
 think about how they differ and which might be best.
 
 And that's all we wanted to highlight with this first example. You'll see and learn much more Java syntax as you work
-through the readings over the next couple of weeks.
+through the readings and coding homework over the next few of weeks.
 
 ### Task 3.3 Push your latest changes
 
 - [ ] Now that you've made some more changes to your repository, you should repeat the add, commit, push process
-for any files that you have changed if you haven't done so recently. Remember to include a descriptive commit message.
+for any files that you have changed if you haven't done so recently. Remember to include a descriptive commit message!
 
 ### Task 3.4 Pulling changes from GitHub
 
@@ -311,7 +313,7 @@ This change has now been made on GitHub,
 but your local copy doesn't know about the change yet.
 
 - [ ] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
-or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see that commit show up in
+or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see the commit show up in
 your local repository.
 
 Let's move on to a couple more small programming challenges for you to try out, which are similar to Fizz Buzz.
@@ -322,7 +324,7 @@ Technical interviews for developer internships often have you write
 some code. It usually uses first- and second-year material, and many students
 practice these kinds of problems regularly over the academic year to gain confidence in tackling them.
 
-For this week's homework, you'll solve two of them. You can get a start on them now in lab, but you'll make some
+As part of this week's homework, you'll solve two of them. You can get a start on them now in lab, but you'll make some
 minor modifications on your own after and submit your code on MarkUs using git (with the same add,
 commit, push steps you learned in lab this week).
 
@@ -362,11 +364,11 @@ And that's it for the first lab activity of the term!
       use the `git log` command to view a summary of the commits to the repository.
 
 ## Coding homework for this week
-See the Week 1 module on Quercus for how to get started on the homework based on the above two problems.
+See the Week 2 module on Quercus for how to get started on the part of the homework related to the above two problems.
 
 ## Learning Java
-As noted in the Week 1 module, you should start working through the Java readings this week. This will more formally
-cover a lot of the syntax which you just saw for possibly the first time during the lab.
+You should start working through the learning Java materials available on Quercus. This will more formally
+cover a lot of the syntax which you just saw for possibly the first time during the lab today.
 
 ## Further practice
 
@@ -383,7 +385,7 @@ If you have time left in the lab, you might try experimenting with how git works
 a shared repository with multiple people contributing code. We'll be doing some similar exercises in
 the next labs, as this will be important when you work on your projects, so this is optional for now.
 
-Note: you can also walk through this on your own by creating multiple forks and clones of your
+Note: you can also walk through this on your own by creating multiple clones of your
 own repository.
 
 We'll briefly summarize two approaches you might take for this:
@@ -399,7 +401,7 @@ We'll briefly summarize two approaches you might take for this:
 4. Anyone with a fork of your repository will see an option to sync with your repository.
 Similarly, they will also see an option to contribute their changes to your original fork.
 The mechanism by which this contribution is done is a **pull request**. As the name suggests,
-you are requesting that the original repository do a `git pull` to pull in your commits. We'll talk
+you are requesting that, roughly speaking, the original repository do a `git pull` to pull in your commits. We'll talk
 more about pull requests later, but feel free to try it out now by following the instructions that
 appear when you click the button to contribute.
 
