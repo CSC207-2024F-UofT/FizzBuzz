@@ -332,7 +332,7 @@ commit, push steps you learned in lab this week).
 
 - [ ] Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
 
-We're looking for non-negative multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
+We're looking for positive multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
 four below 10. How many are below 1000?
 
 - [ ] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
