@@ -28,7 +28,7 @@ class FizzBuzz {
 //                System.out.println(i);
 //
 //            }
-        // For the while loop version
+//         For the while loop version
         int max = 100;
         int counter = 1;
         while(counter < max){
@@ -40,20 +40,13 @@ class FizzBuzz {
         boolean divisibleBy3 = counter % 3 == 0;
         boolean divisibleBy5 = counter % 5 == 0;
         if (divisibleBy3 && divisibleBy5) {
-
-            System.out.println("Fizz Buzz");
-
-        } else if (divisibleBy3) {
-
-            System.out.println("Fizz");
-
-        } else if (divisibleBy5) {
-
-            System.out.println("Buzz");
-
-        } else {
-            System.out.println(counter);
-        }
+            System.out.println("Fizz Buzz");}
+        else if (divisibleBy3) {
+            System.out.println("Fizz");}
+        else if (divisibleBy5) {
+            System.out.println("Buzz");}
+        else {
+            System.out.println(counter);}
         counter++;
         return counter;
     }
