@@ -214,9 +214,9 @@ a sequence of three git commands:
    will need to do the actual push using IntelliJ. See the first tip below, which mentions how to perform
    the relevant git operations through IntelliJ's graphical user interface.
 
-- [ ] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
+- [X] Once you execute these commands, you can check your GitHub repository to confirm that the changes have been made there.
 
-- [ ] repeat the above steps for `README.md` (or try using the approach below).
+- [X] repeat the above steps for `README.md` (or try using the approach below).
 
 Tip: You can also use IntelliJ to execute these same steps using the graphical user interface it provides.
 If you have followed the software installation instructions, you should see `Git` in the menu bar at the top.
@@ -243,12 +243,12 @@ Now, back to exploring the code!
 
 To briefly observe what private does, let's create a new class.
 
-- [ ] Right-click on `src` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
+- [X] Right-click on `src` and select `New —> Java Class`. Name it `Main`. This will create a `Main.java` file.
 
 We'll write a main method which will attempt to call `FizzBuzz.doFizzBuzz` (or whatever you called
 your extracted helper method).
 
-- [ ] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
+- [X] To quickly generate `main`, you can start typing `psvm` in IntelliJ and then press Enter to accept the
 autocomplete — it will generate an empty "public static void main" (psvm) method for you. Neat!
 
 - [ ] In the body of this main method, type `FizzBuzz.`. You'll see that the private helper method doesn't
