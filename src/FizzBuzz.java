@@ -14,7 +14,7 @@ class FizzBuzz {
             // Print our appropriate result.
             if (divisibleBy3 && divisibleBy5) {
 
-                System.out.println("Fizz Buzz");
+                System.out.println("Fizz Buzz divisble by 5");
 
             } else if (divisibleBy3) {
 
