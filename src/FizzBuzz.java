@@ -1,34 +1,19 @@
-/**
- * Solve the FizzBuzz challenge.
- */
 class FizzBuzz {
+    private static boolean is3Divisible(int n) {
+        return n % 3 == 0;
+    }
+
+    private static boolean is5Divisible(int n) {
+        return n % 5 == 0;
+    }
 
     public static void main(String[] args) {
-
         for (int i = 1; i < 100; i++) {
+            boolean ok3 = is3Divisible(i);
+            boolean ok5 = is5Divisible(i);
+            boolean both = ok3 && ok5;
 
-            // Find out which numbers divide i.
-            boolean divisibleBy3 = i % 3 == 0;
-            boolean divisibleBy5 = i % 5 == 0;
-
-            // Print our appropriate result.
-            if (divisibleBy3 && divisibleBy5) {
-
-                System.out.println("Fizz Buzz");
-
-            } else if (divisibleBy3) {
-
-                System.out.println("Fizz");
-
-            } else if (divisibleBy5) {
-
-                System.out.println("Buzz");
-
-            } else {
-
-                System.out.println(i);
-
-            }
+            System.out.println(both ? "FizzBuzz" : ok3 ? "Fizz" : ok5 ? "Buzz" : i);
         }
     }
 }
