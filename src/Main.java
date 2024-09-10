@@ -3,7 +3,7 @@ public class Main {
         FizzBuzz fizzBuzz = new FizzBuzz();
         fizzBuzz.main(args);
         int i = 100;
-        while (i<101){
+        while (i<123){
             i = fizzBuzz.doFizzBuzz(i);
         }
     }
