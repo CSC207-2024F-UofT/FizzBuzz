@@ -4,6 +4,7 @@
 class FizzBuzz {
 
     public static void main(String[] args) {
+        System.out.println(args[0]);
         int i = 0;
         while (i < 100) {
 
@@ -11,7 +12,7 @@ class FizzBuzz {
         }
     }
 
-    private static int getI(int i) {
+    public static int getI(int i) {
         // Find out which numbers divide i.
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
