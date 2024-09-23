@@ -6,12 +6,8 @@ public class Multiples {
             boolean divisibleBy3 = n % 3 == 0;
             boolean divisibleBy5 = n % 5 == 0;
 
-            if (divisibleBy3) {
+            if (divisibleBy3 || divisibleBy5) {
                 c++;
-            } else {
-                if (divisibleBy5) {
-                    c++;
-                }
             }
             n++;
         }
