@@ -288,7 +288,7 @@ through the readings and coding homework over the next few of weeks.
 
 ### Task 3.3 Push your latest changes
 
-- [ ] Now that you've made some more changes to your repository, you should repeat the add, commit, push process
+- [X] Now that you've made some more changes to your repository, you should repeat the add, commit, push process
 for any files that you have changed if you haven't done so recently. Remember to include a descriptive commit message!
 
 ### Task 3.4 Pulling changes from GitHub
@@ -305,14 +305,14 @@ ways to help you resolve such conflicts without too much difficulty.
 To get your first experience with `git pull`, you can make a quick change to one of the files in your Fizz Buzz repository
 on GitHub.
 
-- [ ] Open any of the files (like this readme file, for example) on the GitHub webpage for your repository. Near the
+- [X] Open any of the files (like this readme file, for example) on the GitHub webpage for your repository. Near the
 right side of the screen, you should see an edit button (with a pencil on it). Click that and make a small edit to
 the file. Then click the commit button to commit the change to the repository.
 
 This change has now been made on GitHub,
 but your local copy doesn't know about the change yet.
 
-- [ ] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
+- [X] In IntelliJ, you can either click the `Git` menu and choose `Pull...`,
 or you can run `git pull` from the Terminal tab. Once you have done the pull, you should see the commit show up in
 your local repository.
 
@@ -330,12 +330,12 @@ commit, push steps you learned in lab this week).
 
 ## Task 4: Multiples of 3 and 5
 
-- [ ] Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
+- [X] Right-click on `src` and select `New —> Java Class`. Name it `Multiples`.
 
 We're looking for non-negative multiples of 3 or 5. The first four are 3, 5, 6, and 9, so there are
 four below 10. How many are below 1000?
 
-- [ ] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
+- [X] In `Multiples.java`, write a main method that **prints** how many multiples of 3 or 5 there are below 1000.
 Add this file to your project, commit, and push. Check your repo on GitHub to confirm your changes were pushed successfully.
 
 Tip: Just like with `psvm`, you can start typing `sout` and then press Enter to generate `System.out.println();` in IntelliJ.
@@ -346,21 +346,21 @@ working code on MarkUs.
 
 ## Task 5: Reduce a number to 0
 
-- [ ] Right-click on `src` and select `New —> Java Class`. Name it `Reduce`.
+- [X] Right-click on `src` and select `New —> Java Class`. Name it `Reduce`.
 
 Starting with a number n, if n is even divide it by 2. If n is odd, subtract 1. Repeat.
 
 For example, if you start with n = 2, the answer is 2.
 Details: 2 (even, divide by 2) --> 1 (odd, subtract 1) --> 0.
 
-- [ ] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
+- [X] In `Reduce.java`, write a main method that prints how many steps it takes to reach 0 if you start at 100.
 Add this file to your project, commit, and push. If you don't get the right answer, that's okay for now.
 This is to get you to practice. You'll have until the end of the week to work out the details and
 submit your working code on MarkUs.
 
 And that's it for the first lab activity of the term!
 
-- [ ] Check with those around you to see how many commits you each made during the lab. You can view the log of commits on GitHub or
+- [X] Check with those around you to see how many commits you each made during the lab. You can view the log of commits on GitHub or
       use the `git log` command to view a summary of the commits to the repository.
 
 ## Coding homework for this week
