@@ -4,3 +4,4 @@ public class Main {
         FizzBuzz.main();
     }
 }
+hello
