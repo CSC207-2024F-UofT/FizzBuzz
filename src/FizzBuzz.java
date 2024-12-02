@@ -3,32 +3,39 @@
  */
 class FizzBuzz {
 
-    public static void main(String[] args) {
+    public static void main() {
 
-        for (int i = 1; i < 100; i++) {
+        int i = 1;
+        while(i < 100) i = doFizzBuzz(i);
+    }
 
-            // Find out which numbers divide i.
-            boolean divisibleBy3 = i % 3 == 0;
-            boolean divisibleBy5 = i % 5 == 0;
+    public static int doFizzBuzz(int i) {
+        // Find out which numbers divide i.
+        boolean divisibleBy3 = i % 3 == 0;
+        boolean divisibleBy5 = i % 5 == 0;
 
-            // Print our appropriate result.
-            if (divisibleBy3 && divisibleBy5) {
+        // Print our appropriate result.
+        if (divisibleBy3 && divisibleBy5) {
 
-                System.out.println("Fizz Buzz");
+            System.out.println("Fizz Buzz");
+            i++;
 
-            } else if (divisibleBy3) {
+        } else if (divisibleBy3) {
 
-                System.out.println("Fizz");
+            System.out.println("Fizz");
+            i++;
 
-            } else if (divisibleBy5) {
+        } else if (divisibleBy5) {
 
-                System.out.println("Buzz");
+            System.out.println("Buzz");
+            i++;
 
-            } else {
+        } else {
 
-                System.out.println(i);
+            System.out.println(i);
+            i++;
 
-            }
         }
+        return i;
     }
 }
